@@ -7,14 +7,15 @@ body{
 }
 .profile{
     width: 40vw;
-    background-color: thistle;
+    background-color: rgb(188, 242, 185);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
     align-items: center;
     justify-content: center;
     margin: 3vh 0vw;
-    display:none;
+    display:;
 }
 
 .userimgname{
@@ -29,7 +30,8 @@ body{
 .userimgname img{
     height: 10vh;
     width: 10vw;
-    background-color: aliceblue;
+    background-color: rgb(240, 207, 155);
+    border: 1px solid gray;
     border-radius: 10px;
 }
 .biodiv{
@@ -40,8 +42,12 @@ body{
     justify-content: center;
 }
 p{
-    font-size: 18px;
+    font-size: 20px;
     margin: 3px;
+}
+a{
+    text-decoration: none;
+    font-size: large;
 }
 
 
