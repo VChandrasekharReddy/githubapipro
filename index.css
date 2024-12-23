@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile{
+    width: 40vw;
+    background-color: thistle;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3vh 0vw;
+    display:none;
+}
+
+.userimgname{
+    width: 80%;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.userimgname img{
+    height: 10vh;
+    width: 10vw;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.biodiv{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p{
+    font-size: 18px;
+    margin: 3px;
+}
+
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <h1>GitHub Profile</h1>
+    <div class="inputs">
+        <input type="text" name="userid" id="userid" required placeholder="Enter the github profile id">
+        <button type="submit" onclick="fetchdata()">Get Profile</button>
+        
+        <!-- for arror -->
+        <p class="error"></p>
+        </div>
+        <!-- for profile  -->
+        <div class="profile" id="profile">
+            <div class="userimgname">
+                <img id="userimg" src="" alt="">
+                <p class="username" id="username">chandra</p>
+            </div>
+            <div class="biodiv">
+                <p id="bio"></p>
+                <p id="repo"></p>
+                <p id="followers"></p                
+                <p id="following"></p>
+                <p id="location"></p>
+                <p id="createdat"></p>
+                <a href="" id="link">goto profile</a>
+
+            </div>
+        </div>
+</body>
+</html>
